@@ -1,18 +1,21 @@
 # Sample_Project
 ## Stage-1(Frontend)
 ### Login Lorm(login.html)
-1.User Input name=username
-2.Passwod Input name=password
+
+###### User Input name=username
+###### Passwod Input name=password
 
 ### Feedback Form(Index.html)
--Feedback Name Input name=f_name
--Feedback Email Inputname=f_email
--Feedback Rating Input name=f_rating
--Feedback Input name=feedback
+
+###### -Feedback Name Input name=f_name
+###### -Feedback Email Inputname=f_email
+###### -Feedback Rating Input name=f_rating
+###### -Feedback Input name=feedback
 
 ### User data insert Form(User.html)
-1.Company Name  Input name=c_name
-2.Company Link Input name=c_link
+
+###### * Company Name  Input name=c_name
+###### * Company Link Input name=c_link
 
 ## Stage-2 Database(Models)
 ## App Models
@@ -36,13 +39,13 @@
 
 ## Stage-3 Backend 
 ### App Views---->(Function names)
--home
--login_views
--User_views
--admin_views
--feedback_approval
--feedback_delete
--logout_views
+###### 1.home
+###### 2.login_views
+###### 3.User_views
+###### 4.admin_views
+###### 5.feedback_approval
+###### 6.feedback_delete
+###### 7.logout_views
 
 ### App Urls ---->Function name with Nicknames
 
@@ -58,11 +61,11 @@
 
 
 ### App Admin Register --->
--from Sample_app.models import Careers_hub
--from Sample_app.models import Career_feedback
+###### * from Sample_app.models import Careers_hub
+###### * from Sample_app.models import Career_feedback
 #### Register models here.
--admin.site.register(Careers_hub)
--admin.site.register(Career_feedback)
+###### -admin.site.register(Careers_hub)
+###### -admin.site.register(Career_feedback)
 
 
 
