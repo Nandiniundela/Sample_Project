@@ -45,13 +45,17 @@
 -logout_views
 
 ### App Urls ---->Function name with Nicknames
-1.('',views.home,name='career'),
-2.('login',views.login_views,name='login'),
-3.('AdminPanel',views.admin_views,name='AdminPanel'),
-4.('User',views.User_views,name='User'),
-5.('approved/<int:pk>',views.feedback_approval,name='approved'),
-6.('delete/<int:pk>',views.feedback_delete,name='delete'),
-7.('logout',views.logout_views,name='logout')
+
+|   Route             |   Views Name            |   Nicknames                     | 
+| --------------------|:-----------------------:|--------------------------------:|
+| ''                  | views.home              |  name='career'                  |       
+| 'login'             | views.login_views       |  name='login'                   |
+| 'AdminPanel'        | views.admin_views       |  name='AdminPanel'              |
+| 'User'              | views.User_views        |  name='User'                    |
+| 'approved/<int:pk>' | views.feedback_approval |  name='approved'                |
+| 'delete/<int:pk>'   | views.feedback_delete   |  name='delete'                  |
+| 'logout'            | views.logout_views      | name='logout'                   |
+
 
 ### App Admin Register --->
 -from Sample_app.models import Careers_hub
